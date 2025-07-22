@@ -5,6 +5,7 @@ public class user {
         Scanner nav = new Scanner(System.in);
         int a =nav.nextInt();
         System.out.println(a);
+        nav.close();
 
         
     }
