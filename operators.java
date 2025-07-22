@@ -19,14 +19,15 @@ public class operators {
 
         //logial operator and bitwise operator
         int c=10;
-        int d=10;
+        int d=-10;
         int e=9;
         int f=2;
         System.out.println(c&d);
         System.out.println(c|d);
         System.out.println((c==d)&&(e>f));
-        System.out.println((c==d)||(e<f));
+        System.out.println((c==d)||(e>f));
         System.out.println(~c);
+        System.out.println(~d);
 
         // tereneray operator
         //syntax (condition)?(statement 1):(statement 2)
