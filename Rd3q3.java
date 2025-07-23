@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class RQ5a {
+public class Rd3q3 {
+
     public static void main(String[] args) {
         try(Scanner n=new Scanner(System.in)){
             System.out.println("1.+");
