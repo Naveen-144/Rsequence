@@ -9,7 +9,9 @@ public class Rd3q7 {
         String b="";
         for(int i=a.length()-1;i>=0;i--){
             b=b+a.charAt(i);
+            System.out.print(a.charAt(i));
         }
+        System.out.println();
         //System.out.println(b);
         if(a.equals(b)){
             System.out.println("Entered word is pallindrome");
