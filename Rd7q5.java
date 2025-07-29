@@ -9,14 +9,15 @@ public class Rd7q5 {
         int m=sc.nextInt();
         int[][] matrix=new int[n][m];
         System.out.println("enter the values in array");
+
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 matrix[i][j]=sc.nextInt();
             }
         }
         int tsum=0;
-        int sum =0;
         System.out.println();
+        int sum =0;
         for(int i=0;i<n;i++){
             sum=0;
             for(int j=0;j<m;j++){
