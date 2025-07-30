@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Rd83darray {
+public class Rd83darrsum {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
@@ -20,6 +20,7 @@ public class Rd83darray {
                 }
             }
         }
+        int sum=0;
 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
@@ -30,6 +31,19 @@ public class Rd83darray {
             }
             System.out.println();
         }
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                for(int k=0;k<d;k++){
+                  sum=sum+a[i][j][k];
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        System.out.println(sum);
+
+
+        
         scan.close();
 
     
