@@ -25,6 +25,10 @@ public class Rd7q6 {
             System.out.println();
 
         }
+        // Another easy way
+        for(int i=0;i<n;i++){
+            System.out.print(matrix[i][i]+" ");
+        }
         sc.close();
     }
     
