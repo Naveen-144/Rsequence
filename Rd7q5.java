@@ -32,6 +32,5 @@ public class Rd7q5 {
         System.out.println(tsum);
         sc.close();
     }
-
     
 }

@@ -1,7 +1,8 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
-public class Rd83darrsum {
-    public static void main(String[] args) {
+public class Rd9q83d {
+
+     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
         System.out.println("enter how many matrix");
@@ -20,27 +21,36 @@ public class Rd83darrsum {
                 }
             }
         }
-        int sum=0;
+        
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++)
+        {System.out.println("___the "+(i+1)+" matrix is__");
             for(int j=0;j<m;j++){
                 for(int k=0;k<d;k++){
-                   System.out.print(a[i][j][k]+" ");
+                   System.out.print(a[i][j][k]+" ");    
                 }
                 System.out.println();
+                 
             }
-            System.out.println();
+           
+           System.out.println();
         }
+        int count=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 for(int k=0;k<d;k++){
-                  sum=sum+a[i][j][k];
+                  if(a[i][j][k]%2==0){
+                   count=count+1;
+                   System.out.print(a[i][j][k]+" ");
+
+                  }
                 }
                 //System.out.println();
             }
-            //System.out.println();
+            
         }
-        System.out.println(sum);
+        System.out.println();
+        System.out.println("the number of even numbers are: "+count);
 
 
         
@@ -50,5 +60,4 @@ public class Rd83darrsum {
 
         
     }
-    
 }
